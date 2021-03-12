@@ -26,3 +26,13 @@ Nem um elemento no React Native não tem estilização própria.
 ## Configuração do Ambiente React Native
 
 [Ambiente React Native](https://react-native.rocketseat.dev/)
+
+## Componentes do React Native
+
+Os [componentes](https://reactnative.dev/docs/components-and-apis) do React Native não possuem valor semântico
+(significado) e também não possuem estilização própria.
+
+![Diferenças do ReactJS](.github/diferencas-do-reactjs.png)
+
+- Por padrão todos os componentes do React Native possuem `display: flex`.
+- Dentro do React Native não existe herança de estilos.
