@@ -36,3 +36,14 @@ Os [componentes](https://reactnative.dev/docs/components-and-apis) do React Nati
 
 - Por padrão todos os componentes do React Native possuem `display: flex`.
 - Dentro do React Native não existe herança de estilos.
+
+
+## Conexão com API
+
+- iOS com Emulador: `http://localhost`
+- iOS com físico: `http://<IP da maquina>`
+- Android com Emulador: `http://localhost` precisa roda `adb reverse tcp:<PORT> tcp:<PORT>`
+- Android com Emulador: `http://10.0.2.2` quando estiver usando o emulador do Android Studio
+- Android com Emulador: `http://10.0.2.2` quando estiver usando o emulador do Genymotion
+- Android com físico: `http://<IP da maquina>`
+
